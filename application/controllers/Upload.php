@@ -107,7 +107,19 @@ class Upload extends CI_Controller {
 
     public function myaccount_fun()
     {
-        $route['hello']="Welcome/hello";
+        $this->load->view('myaccount_view');
     }
+
+     public function upload_product_user_fun()
+    {
+       $this->load->view('upload_product_user');
+
+    }
+    public function addblog2_fun()
+    {
+       $this->load->view('addblog_view2');
+
+    }
+
 }
 ?>

@@ -135,7 +135,7 @@ session_start();
 	
 	</head>
 <body>
-<?php include 'header.php' ?>
+<?php include 'customer_header.php' ?>
 <br>
 <br>
 
@@ -250,7 +250,6 @@ function GEEKFORGEEKS()
 
 <div>
 <footer class="container-fluid text-center">
-        <?php include 'footer.php';?>
     </footer>
 </div>
 

@@ -97,49 +97,49 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="<?php echo base_url()."index.php/Upload/upload_product_customer_fun";?>" id="pagesDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url()."index.php/Upload/upload_product_user_fun";?>" id="pagesDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Upload Product</span>
             </a>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/view_stlfile_fun" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Hier Designer</span>
             </a>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/generate_quotation_fun"  role="button"  aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/addblog2_fun"  role="button"  aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Blog</span>
             </a>            
         </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/view_quotations_fun"  role="button"  aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#"  role="button"  aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Buy History</span>
             </a>
          </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/view_enquiries_fun" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Sale History</span>
             </a>
         </li>
 
          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Welcome/hello" id="pagesDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/myaccount_fun" id="pagesDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>My Account</span>
             </a>
         </li>
 
          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/newsletter_fun" id="pagesDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Offer Zone</span>
             </a>      
