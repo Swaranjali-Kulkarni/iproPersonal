@@ -157,7 +157,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" style="font-size:40px;letter-spacing: 0px;" href="#myPage"><b style="font-weight: bolder; "><img src="<?php echo base_url(); ?>temp-img/logoUp.png"  height="30">iPRO3D</b></a>
+            <a class="navbar-brand" style="font-size:40px;letter-spacing: 0px;" href="#myPage"><b style="font-weight: bolder; "><img src="<?php echo base_url();?>temp-img/logoUp.png"  height="30">iPRO3D</b></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">

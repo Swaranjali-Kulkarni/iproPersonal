@@ -10,9 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>EasyEnquiry</title>
-
+    
     <!-- Bootstrap core CSS-->
     <link href="<?php echo base_url()."vendor/bootstrap/css/bootstrap.min.css";?>" rel="stylesheet">
 
@@ -106,17 +104,17 @@
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Upload Product on Marketplace</span>
             </a>
-             </li>
+        </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/ViewStlFile_fun" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/view_stlfile_fun" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>View STL File</span>
             </a>
-                        </li>
+        </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#"  role="button"  aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/generate_quotation_fun"  role="button"  aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Generate Quotation</span>
             </a>
@@ -125,7 +123,7 @@
 
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/viewQuotations_fun"  role="button"  aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/view_quotations_fun"  role="button"  aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>View All Quotations</span>
             </a>
@@ -133,21 +131,21 @@
 
 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/view_enquiries_fun" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>View Enquiries</span>
             </a>
         </li>
 
          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/addblog_fun" id="pagesDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Add Blogs</span>
             </a>
            </li>
 
          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/newsletter_fun" id="pagesDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>News Letter</span>
             </a>
@@ -155,33 +153,45 @@
         </li>
 
          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/SaleHistory_fun" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/view_bills_fun" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>View Bills</span>
             </a>
-            <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-                <a class="dropdown-item" href="<?php echo base_url();?>index.php/Upload/viewQuotations_fun">Add Course</a>
-                <a class="dropdown-item" href="<?php echo base_url();?>index.php/Upload/SaleHistory_fun">View Course</a>
-            </div>
         </li>
 
          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/generate_coupon_fun" id="pagesDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Generate Coupon</span>
             </a>
-            <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-                <a class="dropdown-item" href="<?php echo base_url()."index.php/course/LoadCourse";?>">Add Course</a>
-                <a class="dropdown-item" href="<?php echo base_url()."index.php/course/AllCourses";?>">View Course</a>
-            </div>
         </li>
 
          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/SaleHistory_fun" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Upload/sale_history_fun" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Sale History</span>
+            </a>      
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-fw fa-folder"></i>
+                <span>Payment History</span>
             </a>
-           
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-fw fa-folder"></i>
+                <span>Product History</span>
+            </a>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-fw fa-folder"></i>
+                <span>Customer Contact</span>
+            </a>
         </li>
     </ul>
 </body>

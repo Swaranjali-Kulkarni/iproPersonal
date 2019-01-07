@@ -58,13 +58,12 @@
 <body>
 
 <!-- Navbar (sit on top) -->
-<?php include 'header_view.php';?>
 
 <!-- image alert -->
 
 <!-- cose-->
 
-
+<?php include'header_view.php';?>
 
 <!-- Header with full-height image -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -73,8 +72,6 @@
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-
-
         <div class="item active">
             <img src="<?php echo base_url(); ?>img/slider/img13.jpg" alt="Image">
             <div class="carousel-caption">

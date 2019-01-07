@@ -1,4 +1,5 @@
 <html>
+<title>Sale History</title>
 <head>
 <style>
 table, th, td {
@@ -11,7 +12,7 @@ margin-left: 0%;
 </style>
 </head>
 <body>
-  <?php include 'header.php' ?>
+
 <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
         <div class="container-fluid text-center" style="margin-left: 150%;margin-top: 20%;" class="input-group">
           <div class="input-group-append">

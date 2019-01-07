@@ -3,6 +3,7 @@ session_start();
     ?>
 
 <head>
+    <title>Upload Product</title>
 
     <style>
         /* Remove the navbar's default margin-bottom and rounded borders */
@@ -134,7 +135,6 @@ session_start();
 	
 	</head>
 <body>
-<?php include 'header.php' ?>
 <br>
 <br>
 
@@ -160,8 +160,8 @@ function GEEKFORGEEKS()
 }
 </script>
    
-            <div class="col-sm-8 text-left">
-			<form method="post" action="">
+    <div class="col-sm-8 text-left">
+	<form method="post" action="">
     <section id="contact" class="content-section ">
         <div class="contact-section">
             <div class="container-fluid " style="padding-left: 20%;">
@@ -252,19 +252,20 @@ function GEEKFORGEEKS()
                            </div>
 
                             <div class="form-group">
-                                    <form action="#" method="POST" enctype="multipart/form-data">
-                                <label  style="font-size: 16px">Upload Left-Side View</label> <input type="file" name="image" > </form>
+                                <form action="#" method="POST" enctype="multipart/form-data">
+                                <label  style="font-size: 16px">Upload Left-Side View</label> <input type="file" name="image" ></form>
                            </div>
 
                             <div class="form-group">
-                                    <form action="#" method="POST" enctype="multipart/form-data">
-                                <label  style="font-size: 16px">Upload Isometric View</label> <input type="file" name="image"/ > </form>
+                                <form action="#" method="POST" enctype="multipart/form-data">
+                                <label  style="font-size: 16px">Upload Isometric View</label>
+                                <input type="file" name="image"/ > </form>
                            </div>
 
 							<div class="form-group" align="center">
-                                        <input type="submit" class="btnRegister" name="b_upload" style="width:50%" value="Upload Product on marketplace"/>
-                                        </div>
-                                    </form>
+                                <input type="submit" class="btnRegister" name="b_upload" style="width:50%" value="Upload Product on marketplace"/>
+                                </div>
+                        </form>
                     </div>
                 </div>
             </div>

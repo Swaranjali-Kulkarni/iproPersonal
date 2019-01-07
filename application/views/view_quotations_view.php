@@ -1,4 +1,5 @@
 <html>
+<title>View Quotations</title>
 <head>
 <style>
 table, th, td {
@@ -9,7 +10,6 @@ margin-left: 0%;
 </style>
 </head>
 <body>
-  <?php include 'header.php' ?>
 <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
         <div class="container-fluid text-center" style="margin-left: 150%;margin-top: 20%;" class="input-group">
           <div class="input-group-append">
@@ -32,9 +32,8 @@ margin-left: 0%;
   <tr>
     <th>Customer_Id</th>
     <th>Customer_Name</th> 
-    <th>STL_file</th>
-    <th>Product_Description</th>
-    <th>Date</th>
+    <th>Generated_Quotations</th>
+  
   </tr>
   </table>
 <footer class="container-fluid text-center">
