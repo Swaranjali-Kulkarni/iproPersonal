@@ -49,7 +49,6 @@ class Upload extends CI_Controller {
     {
         $this->load->view('admin_header');
         $this->load->view('upload_product_admin');
-        $this->load->model('admin_insert_model');
     }
 
     public function view_stlfile_fun()

@@ -149,15 +149,11 @@
             </div>
             <div class="col-sm-3"  id="">
                 <img src="<?php echo base_url(); ?>img/ipevent/9.jpeg" height="200px" width="200px" class="img img-rounded">
-
-
             </div>
 
 
             <div class="col-sm-3"  id="">
                 <img src="<?php echo base_url(); ?>img/ipevent/6.jpeg" height="200px" width="200px" class="img img-rounded">
-
-
             </div>
 
 
