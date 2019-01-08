@@ -60,7 +60,7 @@ class Upload extends CI_Controller {
     public function generate_quotation_fun()
     {
         $this->load->view('admin_header');
-        $this->load->view('generate_quotation_view'); 
+        $this->load->view('generate_quotation_view1'); 
     }
 
     public function view_quotations_fun()
