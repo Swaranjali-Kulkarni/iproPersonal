@@ -5,6 +5,8 @@ class Upload extends CI_Controller {
     {
         parent::__construct();
         $this->load->helper(array('form', 'url'));
+        $this->load->model('insert_model');
+
     }
 
     public function index() 
@@ -32,6 +34,54 @@ class Upload extends CI_Controller {
             $this->load->view('upload_success', $data);
         }
     }
+
+
+    
+        public function myupload(){
+            $config['upload_path']          = 'uploads/images/package';
+            $config['allowed_types']        = 'gif|jpg|png';
+            $config['encrypt_name']         = true;
+            $this->load->library('My_upload', $config);
+        }
+
+
+
+    public function database_fun()
+    {
+                $this->load->database();
+
+
+       
+
+
+        $data = array(
+    'Product_id' => $this->input->post('pid'),
+    'Product_name' => $this->input->post('pname'),
+    'Isq_number' => $this->input->post('isq'),
+    'Product_mrp' => $this->input->post('pmrp'),
+    'Product_height' => $this->input->post('pheight'),
+    'Product_width' => $this->input->post('pwidth'),
+    'Product_volume' => $this->input->post('pvolume'),
+    'Product_color' => $this->input->post('pcolor'),
+    'Product_diameter' => $this->input->post('pdiameter'),
+    'Product_desc' => $this->input->post('pdesc'),
+    'Stl_file' => $this->input->post('imagestl'),
+    'Image_front_view' => $this->input->post('imagefront'),
+    'Image_top_view' => $this->input->post('imagetop'),
+    'Image_bottom_view' => $this->input->post('imagebottom'),
+    'Image_rightside_view' => $this->input->post('imageright'),
+    'Image_leftside_view' => $this->input->post('imageleft'),
+    'Image_isometric_view' => $this->input->post('imageisometric')
+);
+              
+               $this->db->insert('upload_product_admin',$data);  
+  
+        redirect("Upload/upload_product_admin_fun");  
+
+    }
+    
+
+
 
     public function dashboard_fun()
     {
