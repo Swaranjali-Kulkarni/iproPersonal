@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @author      Harrison Emmanuel (Eharry.me)
  * @link        https://www.eharry.me/blog/post/my-codeigniter-upload-extension/
  */
-class MY_Upload extends CI_Upload {
+class MY_upload extends CI_Upload {
     /**
      * Validate Upload Path
      *
