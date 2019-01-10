@@ -75,7 +75,13 @@ class Upload extends CI_Controller {
     }
     
 
+public function View1()
+{
+           $this->load->view('aboutus_link_view');
+                  $this->load->view('aboutus_view');
 
+
+}
 
     public function dashboard_fun()
     {

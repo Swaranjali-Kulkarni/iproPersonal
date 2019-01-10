@@ -1,0 +1,43 @@
+nav{
+  position:fixed;
+  top:0;
+  left:0;
+  height:40px;
+  width:100%;
+  z-index: 1;
+  ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:relative;
+    display:table;
+    margin:0 auto;
+    li{
+      display:table-cell;
+      a{
+        padding:10px 20px;
+        display:block;
+        color:#000000;
+        text-decoration:none;
+        transition:all 0.3s ease-in-out;
+        &:hover{
+          color:#DCDCDC;
+        }
+       }      
+    }
+    .active{
+       a{
+         color:gray;
+         border-bottom:3px solid #DCDCDC;
+        }
+      }
+  }
+}
+section{
+  height:100%;
+  position:relative;
+  margin: 0;
+  padding: 0;  
+  display:block;
+  z-index: 0;
+}

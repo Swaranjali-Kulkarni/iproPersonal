@@ -1,14 +1,27 @@
-<html>
-<body style="margin-top: 60px">
 
-<a href="aboutus.php" class="w3-bar-item w3-button">About Us</a>
-<a href="overview.php" class="w3-bar-item w3-button">Overview</a>
-<a href="history.php" class="w3-bar-item w3-button">History</a>
-<a href="ourapproach.php" class="w3-bar-item w3-button">Our Approach</a>
-<a href="ourteam.php" class="w3-bar-item w3-button">Our Team</a>
-<a href="companyethics.php" class="w3-bar-item w3-button">Company Ethics</a>
-<a href="authentic.php" class="w3-bar-item w3-button">Authentic</a>
-<a href="accuracy.php" class="w3-bar-item w3-button">Accuracy</a>
-<a href="careers.php" class="w3-bar-item w3-button">Careers</a>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us page</title>
+
+</head>
+<body>
+  <script src="<?php echo base_url();?>js/highlight-divjs.js"></script>
+
 </body>
 </html>
+<nav>
+  <ul id="mainNav">
+    <li class="active"><a href="#about">About Us</a></li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#history">HIstory</a></li>
+    <li><a href="#ourapproach">Our Approach</a></li> 
+    <li><a href="#ourteam">Our Team</a></li>
+    <li><a href="#companyethics">Company ethics</a></li>
+    <li><a href="#authentic">Authentic</a></li>    
+    <li><a href="#accuracy">Accuracy</a></li>
+    <li><a href="#careers">Careers</a></li>
+      
+  </ul>
+</nav>
