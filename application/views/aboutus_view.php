@@ -17,9 +17,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <link href="vGraphic.css" rel="stylesheet" type="text/css">
   <link href="whatsApp.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="<?php echo base_url();?>css/highlight-div.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
 
-  <body style="font-family: Comic Sans MS;font-size: 15px">
+
+  <body style="font-family: 'Roboto';font-size: 15px">
   <?php include 'header_view.php';?><br><br>
   <script src="<?php echo base_url();?>js/highlight-divjs.js"></script>
   <!-- Sid-ebar/menu -->
@@ -45,10 +48,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <!-- Top header -->
   <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
   <div class="w3-main" style="margin-left:250px">
-  	<div class="container" style="background-color: #F0F0F0;font-family: Comic Sans MS">
+  	<div class="container" style="background-color:#F0F0F0 ;font-family: 'Roboto'">
              <div class="row" >
               <section id="about"><br><br><br><br>
-                 <h2 style="text-align: center;font-weight: bold">About Us</h2>
+                 <h2 style="text-align: center;font-weight: bold;font-family: 'Philosopher'">About Us</h2>
                     <p style="text-align:justify;padding:20px;">
                      &nbsp;&nbsp;We IPRO3D Technologies LLP is a 3D printing start-up located at Aurangabad, Maharashtra, India which is almost in the center of India geographically.We have a very good and passionate team of Engineers working towards the same goal.We provide professional Services online
                       and offline for on demand production of prototypes,end use products,as well as batch production for products, etc using additive manufacturing technology also popularly known as 3D printing.<br>
@@ -75,7 +78,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div id="home" class="container"  style="background-color: #F0F0F0">
        <div class="row" >
         <section id="overview" data-sr><br><br><br><br>
-          <h2 style="text-align: center;font-weight: bold;">Overview</h2>
+          <h2 style="text-align: center;font-weight: bold;font-family: 'Philosopher'">Overview</h2>
           <p style="text-align:justify;padding:20px;">
               &nbsp;&nbsp;&nbsp;&nbsp;We IPRO3D Technologies LLP is a 3D printing start-up located at Aurangabad, Maharashtra, India which is almost in the center of India  geographically.We have a very good and passionate team of Engineers working towards the same goal.We provide professional Services online
               and offline for on demand production of prototypes,end use products,as well as batch production for products, etc using additive manufacturing technology also popularly known as 3D printing.<br></p>
@@ -100,7 +103,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container" style="background-color: #F0F0F0">
       <div class="row" >
                 <section id="history" data-sr><br><br><br><br>
-          <h2 style="text-align: center;font-weight: bold;">Company History and Timeline</h2>
+          <h2 style="text-align: center;font-weight: bold;font-family: 'Philosopher'">Company History and Timeline</h2>
           <p style="text-align:justify;padding:20px;">
             <ul>
               <li>Idea (June 2016) – Eureka, Idea of 3D printing business.</li>
@@ -124,7 +127,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="container" style="background-color: #F0F0F0">
       <div class="row" >
                 <section id="ourapproach" data-sr><br><br><br><br>
-        <h2 style="text-align: center; font-weight: bolder;">Our Approach</h2>
+        <h2 style="text-align: center; font-weight: bolder;font-family: 'Philosopher'">Our Approach</h2>
         <p style="text-align:justify;padding:20px;">
          &nbsp;&nbsp;&nbsp;Our approach is to work towards bringing every innovative idea or product to reality (Actual 3d object/part)
          by using a disruptive technology of Additive Manufacturing also popularly known as 3D printing and make the
@@ -139,7 +142,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <!--Our Team-->
   <div class="container" style="background-color: #F0F0F0"> 
           <section id="ourteam" data-sr><br><br> <br><br>
-    <h2 style="text-align: center;font-weight: bold;">Our Team</h2>  
+    <h2 style="text-align: center;font-weight: bold;font-family: 'Philosopher'">Our Team</h2>  
       <p class="w3-center w3-large">The ones who runs this company...</br>IPRO3D Technologies LLP was founded on 14th October 2017 By Er. Yogesh Chandrakant Pawar and Dr. Chandrakant T Pawar.</p>
       <br><br>
       <div class="row">
@@ -148,7 +151,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <h5 class="card-title" style="font-weight: bold;padding-left:55px">Er. Yogesh C. Pawar </h5>
                <p><b style="color: #696969;padding-left:0px">Founder and Director Department</b></p>
                <p style="padding-left:0px">Business Operations and Business Development Passionate Mechanical Engineer and Entrepreneur.</p><br>
-               <br>
+               
           </div>
           <div class="col-sm-3 card" style="background-color:#DCDCDC;padding-left:40px" >
               <center><img src="<?php echo base_url(); ?>img/team/t2.png" class="card-img-top img-circle" height="150px" ></center>
@@ -200,7 +203,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container" style="background-color: #F0F0F0">
         <div class="row">
                           <section id="companyethics" data-sr><br><br><br><br>
-            <h2 style="text-align: center;font-weight: bold;">Company Ethics</h2>
+            <h2 style="text-align: center;font-weight: bold;font-family: 'Philosopher'">Company Ethics</h2>
             <br>
             <p style="text-align:justify;padding:20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Every business has its risks and security associated with it. IPRO3D is a leading 3d Printing and 3D CAD modeling company. Whether you are establishing a 3D Model or getting printing services with us, security is our prime concern and responsibility. We understand the importance of valuable designs made by invelsting a lot of time, efforts and creative thinking. You can upload designs with confidence as we take care that no one could download / hack the design. Similarly, all our transmissionas are safe with transcripted environment. Your designs are safe with us and never misused or published without your permission.</p>
            <ol>
@@ -227,7 +230,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container" style="background-color: #F0F0F0">
              <div class="row">
               <section id="authentic" data-sr><br><br><br><br>
-                 <h2 style="text-align: center;font-weight: bold;">Authentic</h2>
+                 <h2 style="text-align: center;font-weight: bold;font-family: 'Philosopher'">Authentic</h2>
                  <p style="text-align:justify;padding:20px;">
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent quality</p>
 
@@ -243,7 +246,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container" style="background-color: #F0F0F0">
        <div class="row">
                         <section id="accuracy" data-sr><br><br><br><br>
-            <h2 style="font-weight: bold; text-align:center">Accuracy</h2> 
+            <h2 style="font-weight: bold; text-align:center;font-family: 'Philosopher'">Accuracy</h2> 
              <p style="text-align:justify;padding:20px;">
               &nbsp;&nbsp;&nbsp;You are in the era of technology which has changed the world in an innovative way. Now, it is possible to change the 2D designs into a 3d physical object/part with advanced technological equipment and software solutions. Accuracy, quality and lead time are the key points in 3d printing processes. We at IPRO3D use high end software solutions and equipment which assure greater accuracy and fine quality in the final 3d printed product.</p>
 
@@ -270,7 +273,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container" style="background-color: #F0F0F0">
             <div class="row" >
                               <section id="careers" data-sr><br><br><br><br>
-                 <h2 style="text-align: center;font-weight: bold">Careers</h2>
+                 <h2 style="text-align: center;font-weight: bold;font-family: 'Philosopher'">Careers</h2>
                  <h4 style="text-align: justify; font-weight:bold ">Job openings</h4>
                  <p style="text-align:justify;padding:20px;">"If you are passionate about 3d printing and want to work with a technology driven startup IPRO3D is the perfect place for you.Currently we do not have no Job openings but who knows where you could fit in so don’t miss on this opportunity and upload your resume here."</p>
                  <div style="text-align: right;">
@@ -301,6 +304,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </html>
 <div class="container-fluid">
      <div class="row">
-       <?php include 'footer_view.php';?>
+       <?php include 'footer_view1.php';?>
      </div>
     </div>

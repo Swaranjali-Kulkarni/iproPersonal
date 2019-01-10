@@ -12,7 +12,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -33,9 +34,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
            
             font-size: 15px !important;
             line-height: 1.42857143 !important;
-            letter-spacing: 2px;
+            letter-spacing: 3px;
             border-radius: 0;
-            font-family: Comic Sans MS;
+            font-family:'Philosopher';
+            font-weight: bold;
         }
         .navbar li a, .navbar .navbar-brand {
         }
@@ -162,9 +164,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li >
-                    <div class="dropdown">
+                    <div class="dropdown" >
                         <a href="<?php echo base_url(); ?>index.php/Welcome/index">
-                            <button class="dropbtn">Home</button>
+                            <button class="dropbtn" style="font-size: 18px;">Home</button>
                             <div class="dropdown-content">
                             </div>
                         </a>
@@ -174,7 +176,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="dropdown">
                     <a href="#">
 
-                            <button class="dropbtn">About Us</button>
+                            <button class="dropbtn" style="font-size: 18px;">About Us</button>
                             <div class="dropdown-content">
                             <!--    <a href="../Aboutus/aboutus.php">About Us</a>-->
                                 <a href="<?php echo base_url(); ?>index.php/Welcome/overview_fun">Overview</a>
@@ -193,7 +195,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <li>
                     <div class="dropdown">
                     <a href="#">
-                        <button class="dropbtn">Services</button>
+                        <button class="dropbtn" style="font-size: 18px;">Services</button>
                         <div class="dropdown-content">
                             <!--<a href="../Services/services.php">Services</a>-->
                             <a href="<?php echo base_url(); ?>index.php/Welcome/services_fun">3D Printing</a>
@@ -210,17 +212,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </li>
                 <li>
                     <div class="dropdown">
-                        <a href="#"><button class="dropbtn">Portfolio</button></a>
+                        <a href="#"><button class="dropbtn" style="font-size: 18px;">Portfolio</button></a>
                     </div>
                     </li>
                 <li>
                     <div class="dropdown">
-                        <a href="<?php echo base_url(); ?>index.php/Welcome/overview_fun"><button class="dropbtn">MarketPlace</button></a>
+                        <a href="<?php echo base_url(); ?>index.php/Welcome/overview_fun">
+                            <button class="dropbtn" style="font-size: 18px;">MarketPlace</button></a>
                     </div>
                 </li>
                 <li>
                     <div class="dropdown">
-                    <a href="<?php echo base_url(); ?>index.php/Welcome/mutation_fun"><button class="dropbtn">Mutation</button></a>
+                    <a href="<?php echo base_url(); ?>index.php/Welcome/mutation_fun">
+                        <button class="dropbtn" style="font-size: 18px;">Mutation</button></a>
                     </div>
                 </li>
                <!-- <li>
@@ -231,12 +235,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 -->
                 <li>
                     <div class="dropdown">
-                    <a href="<?php echo base_url(); ?>index.php/Welcome/contact_fun"><button class="dropbtn">Contact</button></a>
+                    <a href="<?php echo base_url(); ?>index.php/Welcome/contact_fun">
+                        <button class="dropbtn" style="font-size: 18px;">Contact</button></a>
                     </div>
                 </li>
                 <li>
                     <div class="dropdown">
-                        <a href="<?php echo base_url(); ?>index.php/Welcome/login_fun"><button class="dropbtn">Login</button></a>
+                        <a href="<?php echo base_url(); ?>index.php/Welcome/login_fun">
+                            <button class="dropbtn" style="font-size: 18px;">Login</button></a>
                     </div>
                 </li>
 

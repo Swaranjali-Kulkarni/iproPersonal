@@ -17,7 +17,8 @@
 <link href="vGraphic.css" rel="stylesheet" type="text/css">
 <link href="whatsApp.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
 <style type="text/css">
 div.box {
     position: relative;
@@ -52,8 +53,6 @@ a.divLink {
     /*workaround to make clickable in IE */
 }
 body{
-  font-family: Comic Sans MS;
-  font-size: 15px;
   background-image: url('temp-img/b1.png');
 }
 
@@ -61,20 +60,34 @@ mark {
   background-color: #F5F5F5;
   color: black;
 }
+  <body style="font-family: 'Roboto';font-size: 15px">
+
 <?php include 'header_view.php';?>
 <br><br><br>
-<div id="menu_flip" >
-    <button class="btn btn-primary">More Menu</button>
-</div>
-<div id="menu_panel">
-    <?php include 'services_link_view.php';?>
-</div>
+<div>
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px;max-height: 520px;" id="mySidebar">
+    <div class="w3-padding-64 w3-large w3-text-black" style="font-weight:bold;">
+      <nav style="margin-top: 50px">
+    <a href="#about" style="color: black;">About Us</a><br>
+    <a href="#overview" style="color: black;">Overview</a><br>
+    <a href="#history" style="color: black;">HIstory</a><br>
+    <a href="#ourapproach" style="color: black;">Our Approach</a><br> 
+    <a href="#ourteam" style="color: black;">Our Team</a><br>
+    <a href="#companyethics" style="color: black;">Company ethics</a><br>
+    <a href="#authentic" style="color: black;">Authentic</a><br>
+    <a href="#accuracy" style="color: black;">Accuracy</a><br>
+    <a href="#careers" style="color: black;">Careers</a><br>
+</nav>
 
+    </div>
+</nav>
+</div>
+  
 <br><br><br>
     <!--3d printing-->
 
 
-    <div id="div1" class="container">
+    <div id="div1" style="margin-left:250px" class="container">
         <div class="row">
             <form role="form" method="post" action=<a href="<?php echo base_url('Control_services/index1'); ?>"></a>
             <h2 style="text-align: center;"><mark><b>3D Printing</b></style><mark></h2>
@@ -114,8 +127,8 @@ mark {
 
 
 
-    <div class="container" style="padding:20px;">
-        <div class="row" style="padding: 20px; ">
+    <div class="container" style="margin-top: 60px;margin-left: 250px">
+        <div class="row ">
         </br></br>
            <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology has made everything simple and easy to understand. Explore the new standerds in 3d printing industry. If you want to make an actual prototype (3d physical object/part) of your 3d CAD model file, IPRO3D is the right place which offers authentic materials and processes for 3d printing models/designs. We make sure that everything you get is of excellent qualityWhat is 3d printing? Glad you asked.
@@ -914,9 +927,6 @@ mark {
 
     });
 </script>
-
-
-
 </body>
 </html>
  
