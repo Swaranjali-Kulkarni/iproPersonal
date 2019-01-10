@@ -8,10 +8,9 @@
 <body>
 <!--footer starts from here-->
 <br>
-<footer class="footer">
+<footer class="footer w3-black">
 <div class="container-fluid bottom_border" style="width: 100%">
 <div class="row">
-
 <div class=" col-sm-4 col-md  col-12 col" align="left">
 <h5 class="headin5_amrc col_white_amrc pt2">Our Services</h5>
 <!--headin5_amrc-->
@@ -64,8 +63,8 @@
 
 
 <div class="container">
-<ul class="foote_bottom_ul_amrc">
-<li><a href="http://kalarikendramdelhi.com">Home</a></li>
+<ul class="foote_bottom_ul_amrc" align="center">
+<li> <a href="http://kalarikendramdelhi.com">Home</a></li>
 <li><a href="http://kalarikendramdelhi.com">About Us</a></li>
 <li><a href="http://kalarikendramdelhi.com">Services</a></li>
 <li><a href="http://kalarikendramdelhi.com">Portfolio</a></li>
@@ -75,8 +74,9 @@
 <li><a href="http://kalarikendramdelhi.com">Login</a></li>
 </ul>
 <!--foote_bottom_ul_amrc ends here-->
-
-<div class="w3-xxlarge">
+</div>
+<div class="container">
+<div class="w3-xxlarge" align="center">
                 <a href="https://www.facebook.com/ipro3d.tech"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
                 <a href="https://www.instagram.com/ipro3d"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
                 <a href=" https://twitter.com/ipro3d"><i class="fa fa-twitter w3-hover-opacity"></i></a>

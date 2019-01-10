@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
 
 
-  <body style="font-family: 'Roboto';font-size: 15px">
+  <body  background="<?php echo base_url();?>temp-img/b1.png" style="font-family: 'Roboto';font-size: 15px">
   <?php include 'header_view.php';?><br><br>
   <script src="<?php echo base_url();?>js/highlight-divjs.js"></script>
   <!-- Sid-ebar/menu -->

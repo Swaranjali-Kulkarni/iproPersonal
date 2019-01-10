@@ -33,7 +33,7 @@
 </head>
 <!-- //Head -->
 <!-- Body -->
-<body style="background: url(<?php echo base_url(); ?>img/lamps.jpg) no-repeat center;">
+<body background="<?php echo base_url();?>img/lamps.jpg">
 <?php include 'header_view.php'?>
 <br>
 <h1 class="title-agile text-center">Registration as Company</h1>

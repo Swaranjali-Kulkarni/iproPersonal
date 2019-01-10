@@ -13,6 +13,8 @@
 <link href="vGraphic.css" rel="stylesheet" type="text/css">
 <link href="whatsApp.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
 
 <style>
     /* Full height image header */
@@ -55,7 +57,7 @@
 
 </style>
 
-<body>
+<body style="font-family: 'Roboto';"">
 
 <!-- Navbar (sit on top) -->
 
@@ -75,8 +77,8 @@
         <div class="item active">
             <img src="<?php echo base_url(); ?>img/slider/img13.jpg" alt="Image">
             <div class="carousel-caption">
-                <h3 style="font-weight: bolder;">WE ARE HERE</h3>
-                <h1 style="font-weight: bolder;">TO MAKE ANYTHING YOU WANT</h1>
+                <h3 style="font-weight: bolder;font-family: 'Philosopher'">WE ARE HERE</h3>
+                <h1 style="font-weight: bolder;font-family: 'Philosopher'">TO MAKE ANYTHING YOU WANT</h1>
                 <a href="contact_and_quote/quote.php"> <button type="button" class="btn btn-primary">REQUEST A QUOTE</button></a>
             </div>
         </div>
@@ -84,8 +86,8 @@
         <div class="item">
             <img src="<?php echo base_url(); ?>img/slider/img1.jpg" alt="Image">
             <div class="carousel-caption">
-                <h3 style="font-weight: bolder;">WE ARE HERE</h3>
-                <h1 style="font-weight: bolder;">TO MAKE ANYTHING YOU WANT</h1>
+                <h3 style="font-weight: bolder;font-family: 'Philosopher'">WE ARE HERE</h3>
+                <h1 style="font-weight: bolder;font-family: 'Philosopher'">TO MAKE ANYTHING YOU WANT</h1>
                 <button type="button" class="btn btn-primary">REQUEST A QUOTE</button>
             </div>
         </div>
@@ -93,8 +95,8 @@
         <div class="item">
             <img src="<?php echo base_url(); ?>img/slider/slide-2.jpg" alt="Image">
             <div class="carousel-caption">
-                <h3 style="font-weight: bolder;">WE ARE HERE</h3>
-                <h1 style="font-weight: bolder;">TO MAKE ANYTHING YOU WANT</h1>
+                <h3 style="font-weight: bolder;font-family: 'Philosopher'">WE ARE HERE</h3>
+                <h1 style="font-weight: bolder;font-family: 'Philosopher'">TO MAKE ANYTHING YOU WANT</h1>
                 <button type="button" class="btn btn-primary">REQUEST A QUOTE</button>
             </div>
         </div>
@@ -113,7 +115,7 @@
 
  <div class="container-fluid text-center" style="color:darkslategrey;">
         <div class="row">
-            <h3 style="font-weight: bolder;text-align: center;">EVENT EXPO 2019</h3>
+            <h3 style="font-weight: bolder;text-align: center;font-family: 'Philosopher'">EVENT EXPO 2019</h3>
             <div class="col-sm-3" id="">
                 <img src="<?php echo base_url(); ?>img/ipevent/2.jpeg"  class="img img-rounded" height="200px" width="200px">
 
@@ -166,7 +168,7 @@
     <!-- Application of 3d Printing -->
     <div class="container-fluid text-center" style="color:darkslategrey;">
         <div class="row">
-            <h3 style="font-weight: bolder;text-align: center;">Application of 3D Printing</h3>
+            <h3 style="font-weight: bolder;text-align: center;font-family: 'Philosopher'">Application of 3D Printing</h3>
             <div class="col-sm-3" style="margin: 5px;" id="">
                 <img src="<?php echo base_url(); ?>svg/aerospace.svg" height="200px" width="200px" class="img img-rounded">
                 <h5 style="font-weight: bolder;color: darkslategrey;">Aerospace</h5>
@@ -227,7 +229,7 @@
 
     <!-- How we work  -->
     <div class="container-fluid text-center">
-        <h3 style="font-weight: bolder;color:darkslategrey;">How We Work</h3>
+        <h3 style="font-weight: bolder;color:darkslategrey;font-family: 'Philosopher'">How We Work</h3>
         <div class="row">
             <div class="col-sm-2" id="">
                 <img src="<?php echo base_url(); ?>img/logo/idea.png" id="">
@@ -294,7 +296,7 @@
     <!-- Services Demo -->
     <div class="container-fluid text-center">
         <div class="row" style="color:white;background-color: lightgray;">
-            <h3 style="font-weight: bolder;color:darkslategrey;">Our Work</h3>
+            <h3 style="font-weight: bolder;color:darkslategrey;font-family: 'Philosopher'">Our Work</h3>
             <div class="row">
 
                 <div class="col-sm-2">
@@ -362,7 +364,7 @@
 
 <!-- PRODUCTIOn  -->
 <div class="container-fluid text-center">
-    <h3 style="font-weight: bolder;color:darkslategrey;">Prototype Your Product</h3>
+    <h3 style="font-weight: bolder;color:darkslategrey;font-family: 'Philosopher'">Prototype Your Product</h3>
     <div class="row">
         <div class="col-sm-2" id="">
             <img src="<?php echo base_url(); ?>img/New%20folder/material.png" style="height: 150px;">
@@ -450,7 +452,7 @@
     <!-- Promo Section "Statistics" -->
 
     <div class="w3-container w3-row w3-center " style="background-color: #f2f2f2;">
-        <h3 class="text-center" style="font-weight: bold;color: darkslategrey;">Statistics </h3>
+        <h3 class="text-center" style="font-weight: bold;color: darkslategrey;font-family: 'Philosopher'">Statistics </h3>
         <div class="w3-quarter w3-padding-44">
             <span class="w3-xxlarge">8+</span>
             <br><b>Partners</b>
@@ -475,7 +477,7 @@
 
     <!--About Section-->
     <div class="w3-container"   id="">
-        <h3 class="w3-center" style="font-weight: bold; color: darkslategrey;">Our Clients</h3>
+        <h3 class="w3-center" style="font-weight: bold; color: darkslategrey;font-family: 'Philosopher';">Our Clients</h3>
         <div class="w3-row-padding w3-center" style="margin-top:64px">
             <div class="w3-quarter">
                 <img src="<?php echo base_url(); ?>img/clients/startup.png" class="img-circle" style="height: 100px;width: 150px;">

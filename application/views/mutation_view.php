@@ -15,9 +15,12 @@
 <link href="vGraphic.css" rel="stylesheet" type="text/css">
 <link href="whatsApp.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
 
 
-<body style="background-image:url('temp-img/b1.png');font-family: Comic Sans MS;font-size: 15px;">
+
+<body background=<?php echo base_url();?>temp-img/b1.png style="font-family: Roboto;font-size: 15px;">
 <?php include 'header_view.php';?>
 
 <br><br><br>
@@ -25,7 +28,7 @@
 <!-- Sidebar/menu -->
 <br><br><div class="container">
     <div class="row">
-        <h2 style="text-align: center;"><b>Mutation</b></h2>
+        <h2 style="text-align: center;font-family: 'Philosopher'"><b>Mutation</b></h2>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->

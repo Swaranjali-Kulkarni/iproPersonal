@@ -12,11 +12,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    
     <style>
 
         .logo-small {
@@ -174,7 +174,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </li>
                 <li>
                     <div class="dropdown">
-                    <a href="#">
+                    <a href="<?php echo base_url(); ?>index.php/Welcome/overview_fun">
 
                             <button class="dropbtn" style="font-size: 18px;">About Us</button>
                             <div class="dropdown-content">
@@ -194,7 +194,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </li>
                 <li>
                     <div class="dropdown">
-                    <a href="#">
+                    <a href="<?php echo base_url(); ?>index.php/Welcome/services_fun">
                         <button class="dropbtn" style="font-size: 18px;">Services</button>
                         <div class="dropdown-content">
                             <!--<a href="../Services/services.php">Services</a>-->
