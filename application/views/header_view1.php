@@ -196,13 +196,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <button class="dropbtn">Services</button>
                         <div class="dropdown-content">
                             <!--<a href="../Services/services.php">Services</a>-->
-                            <a href="index.php/welcome/printing_fun">3D Printing</a>
-                            <a href="index.php/welcome/scanning_fun">3D Scanning</a>
-                            <a href="../Services/rapidprototyping.php">Rapid Prototyping</a>
-                            <a href="../Services/cadmodeling.php">3D & 2D CAD Modeling</a>
-                            <a href="../Services/design.php">Design for 3D Printing</a>
-                            <a href="../Services/reverse.php">Reverse Engineering</a>
-                            <a href="../Services/services.php">More...</a>
+                            <div class="w3-padding-64 w3-large w3-text-black" style="font-weight:bold;">
+      <nav style="margin-top: 50px">
+    
+    <a href="#Printing" style="color: black;">3D Printing</a>
+    <a href="#scanning" style="color: black;">3D Scanning</a><br>
+    <a href="#rapidprototyping" style="color: black;">Rapid Prototyping</a><br>
+    <a href="#cadmodeling" style="color: black;">3D & 2D CAD Modeling</a><br>
+    <a href="#design" style="color: black;">Design for 3D Printing</a><br>
+    <a href="#reverse" style="color: black;">Reverse Engineering</a>   <br>
+    <a href="#topology" style="color: black;">Design Topology Optimization</a><br>
+    <a href="#manufacturing" style="color: black;">Small Batch Production</a><br>
+    <a href="#vaccumecast" style="color: black;">Vaccum Casting</a> <br>
+    <a href="#xraytopology" style="color: black;">X-Ray Topology</a><br>
+    <a href="#functional" style="color: black;">Functional Part Manufacturing</a><br>
+    <a href="#Tooling" style="color: black;">Tooling Manufacturing</a>   <br>
+    <a href="#injectionmedelling" style="color: black;">Injection Modeling</a><br>
+    <a href="#cncmachine" style="color: black;">CNC Machining</a><br>
+    
+</nav>
+
+    </div>
+
                     </div>
 
                     </a>

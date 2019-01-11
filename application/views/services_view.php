@@ -19,6 +19,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+  <script src="<?php echo base_url();?>js/highlight-divjs.js"></script>
+
 <style type="text/css">
 div.box {
     position: relative;
@@ -68,15 +70,22 @@ mark {
 <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px;max-height: 520px;" id="mySidebar">
     <div class="w3-padding-64 w3-large w3-text-black" style="font-weight:bold;">
       <nav style="margin-top: 50px">
-    <a href="#about" style="color: black;">About Us</a><br>
-    <a href="#overview" style="color: black;">Overview</a><br>
-    <a href="#history" style="color: black;">HIstory</a><br>
-    <a href="#ourapproach" style="color: black;">Our Approach</a><br> 
-    <a href="#ourteam" style="color: black;">Our Team</a><br>
-    <a href="#companyethics" style="color: black;">Company ethics</a><br>
-    <a href="#authentic" style="color: black;">Authentic</a><br>
-    <a href="#accuracy" style="color: black;">Accuracy</a><br>
-    <a href="#careers" style="color: black;">Careers</a><br>
+    
+    <a href="#Printing" style="color: black;">3D Printing</a><br>
+    <a href="#scanning" style="color: black;">3D Scanning</a><br>
+    <a href="#rapidprototyping" style="color: black;">Rapid Prototyping</a><br>
+    <a href="#cadmodeling" style="color: black;">3D & 2D CAD Modeling</a><br>
+    <a href="#design" style="color: black;">Design for 3D Printing</a><br>
+    <a href="#reverse" style="color: black;">Reverse Engineering</a>   <br>
+    <a href="#topology" style="color: black;">Design Topology Optimization</a><br>
+    <a href="#manufacturing" style="color: black;">Small Batch Production</a><br>
+    <a href="#vaccumecast" style="color: black;">Vaccum Casting</a> <br>
+    <a href="#xraytopology" style="color: black;">X-Ray Topology</a><br>
+    <a href="#functional" style="color: black;">Functional Part Manufacturing</a><br>
+    <a href="#Tooling" style="color: black;">Tooling Manufacturing</a>   <br>
+    <a href="#injectionmedelling" style="color: black;">Injection Modeling</a><br>
+    <a href="#cncmachine" style="color: black;">CNC Machining</a><br>
+    
 </nav>
 
     </div>
@@ -89,7 +98,9 @@ mark {
 
     <div id="div1" style="margin-left:250px" class="container">
         <div class="row">
+        <section id="Printing" data-sr>
             <form role="form" method="post" action=<a href="<?php echo base_url('Control_services/index1'); ?>"></a>
+            <br><br><br><br>
             <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>3D Printing</b></style><mark></h2>
             <br>
             <div id="myCarousel" class="carousel slide" data-ride="carousel" >
@@ -121,6 +132,7 @@ mark {
                     </a>
                 </div>
             </div>
+    
         </div>
     </div>
 
@@ -148,13 +160,14 @@ mark {
                </br></br><br><br>
         </div>
     </div>
-  
+  </section>
 
 
 
  <!--3d scanning-->
 <div class="container" style="margin-left:250px" id="div2" >
            <div class="row">
+            <section id="scanning" data-sr><br><br><br><br>
            <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>Scanning</b><mark></h2><br>
                <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -166,7 +179,7 @@ mark {
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-                        <img src="<?php echo base_url('temp-img/topology1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >                    <div class="carousel-caption">
+                        <img src="<?php echo base_url('temp-img/topology1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >                    <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
                          <h3>Institute Code: 170523</h3> -->
@@ -174,7 +187,8 @@ mark {
                 </div>
 
                 <div class="item">
-                        <img src="<?php echo base_url('temp-img/topology2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >                    <div class="carousel-caption">
+                        <img src="<?php echo base_url('temp-img/topology2.jpg'); ?>" alt="Image" style="height: 373px ;
+                        width: 1168px" >                    <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
                         <h3>Institute Code: 170523</h3> -->
@@ -203,12 +217,14 @@ mark {
 
            </div>
       </div>
+    </section>
       
 
 <!--Rapid prototyping-->
 
  <div class="container" style="margin-left:250px" id="div3"  >
            <div class="row">
+            <section id="rapidprototyping" data-sr><br><br><br><br>
            <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>Rapid Prototyping</b><mark></h2>
                <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -220,7 +236,7 @@ mark {
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-        <img src="<?php echo base_url('temp-img/topology1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >                    <div class="carousel-caption">
+        <img src="<?php echo base_url('temp-img/topology1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >                    <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
                          <h3>Institute Code: 170523</h3> -->
@@ -228,7 +244,7 @@ mark {
                 </div>
 
                 <div class="item">
-       <img src="<?php echo base_url('temp-img/topology2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+       <img src="<?php echo base_url('temp-img/topology2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -257,11 +273,13 @@ mark {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rapid prototyping is a combination of various engineering technologies and techniques that are used to quickly fabricate a model of a physical part/model or assembly using 3D CAD Data.</br></br><br><br><br><br>
            </div>
       </div>
+    </section>
 
 
 <!--cad modeling-->
 <div class="container" style="margin-left:250px" id="div4" >
            <div class="row">
+            <section id="cadmodeling" data-sr><br><br><br><br>
            <h2 style="text-align: center;font-family: 'Philosopher'; "><mark><b>3D and 2D CAD Modelling/Designing</b><mark></h2><br>
                <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -273,7 +291,7 @@ mark {
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-      <img src="<?php echo base_url('temp-img/topology1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+      <img src="<?php echo base_url('temp-img/topology1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -282,7 +300,7 @@ mark {
                 </div>
 
                 <div class="item">
-      <img src="<?php echo base_url('temp-img/topology2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+      <img src="<?php echo base_url('temp-img/topology2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -308,7 +326,9 @@ mark {
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3D and 2d Computer Aided Designing is a technology for designing and technical documentation for parts/models, which replaces manual drafting process. It is widely used by architects, engineers, and other professionals. 3D CAD modeling provides an extra dimension to precisely visualize and share designs concepts and iterate it many times in real time.</br></br>
            </div>
       </div>
+    </section>
     <br><br><br>
+
 
 
 <!--Design for 3d printing-->
@@ -316,6 +336,7 @@ mark {
 
 <div class="container" style="margin-left:250px" id="div5" >
     <div class="row">
+      <section id="design" data-sr><br><br><br><br>
 
            <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>Design for 3D printing </b><mark></h2><br>
         <br>
@@ -330,7 +351,7 @@ mark {
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-      <img src="<?php echo base_url('temp-img/topology1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+      <img src="<?php echo base_url('temp-img/topology1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -339,7 +360,7 @@ mark {
                 </div>
 
                 <div class="item">
-     <img src="<?php echo base_url('temp-img/topology2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >               
+     <img src="<?php echo base_url('temp-img/topology2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >               
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -367,12 +388,14 @@ mark {
 
 
            </div>
-      </div>    
+      </div>   
+      </section> 
 
 
         <!--Reverse Engineering-->
 <div class="container" style="margin-left:250px" id="div6"  >
     <div class="row">
+      <section id="reverse" data-sr><br><br><br><br>
         <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>Reverse Engineering</b><mark></h2>
         <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -385,7 +408,7 @@ mark {
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-     <img src="<?php echo base_url('temp-img/reverse1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+     <img src="<?php echo base_url('temp-img/reverse1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -394,7 +417,7 @@ mark {
                 </div>
 
                 <div class="item">
-      <img src="<?php echo base_url('temp-img/reverse2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+      <img src="<?php echo base_url('temp-img/reverse2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -427,12 +450,14 @@ mark {
     </br>
     </div>
 </div>
+</section>
 
 
 
 <!--Design topology optimization-->
 <div class="container" style="margin-left:250px" id="div7" >
     <div class="row">
+      <section id="topology" data-sr><br><br><br><br>
         <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>Design Topology Optimization</b><mark></h2>
         <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -445,7 +470,7 @@ mark {
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-    <img src="<?php echo base_url('temp-img/topology1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+    <img src="<?php echo base_url('temp-img/topology1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -454,7 +479,7 @@ mark {
                 </div>
 
                 <div class="item">
-    <img src="<?php echo base_url('temp-img/topology2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+    <img src="<?php echo base_url('temp-img/topology2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -489,11 +514,12 @@ mark {
  </div>
    </div>
 
-
+</section>
 
    <!--Small batch manufacturing-->
    <div class="container" style="margin-left:250px" id="div8">
         <div class="row">
+          <section id="manufacturing" data-sr><br><br><br><br>
             <h2 style="text-align:center;font-family: 'Philosopher';"><mark><b>Small Batch Production</b><mark></h2>
             <br>
 
@@ -504,7 +530,7 @@ mark {
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-     <img src="<?php echo base_url('temp-img/batch4.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+     <img src="<?php echo base_url('temp-img/batch4.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                         <div class="carousel-caption">
                             <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                              <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -513,7 +539,7 @@ mark {
                     </div>
 
                     <div class="item">
-      <img src="<?php echo base_url('temp-img/batch2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+      <img src="<?php echo base_url('temp-img/batch2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                         <div class="carousel-caption">
                             <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                             <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -546,12 +572,12 @@ mark {
 </br></br><br>
            </div>
       </div>
-
-
+</section>
 
 <!--Vacuum casting-->
 <div class="container" style="margin-left:250px" id="div8">
     <div class="row">
+      <section id="vaccumecast" data-sr><br><br><br><br>
         <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>Vaccum Casting</b><mark></h2>
         <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -564,7 +590,7 @@ mark {
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-     <img src="<?php echo base_url('temp-img/vaccum14.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+     <img src="<?php echo base_url('temp-img/vaccum14.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -573,7 +599,7 @@ mark {
                 </div>
 
                 <div class="item">
-    <img src="<?php echo base_url('temp-img/vaccum6.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+    <img src="<?php echo base_url('temp-img/vaccum6.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -608,12 +634,13 @@ mark {
 </br></br><br><br>
     </div>
    </div>
-
+</section>
 
    <!--Xray topology-->
 
 <div class="container" style="margin-left:250px" id="div9">
     <div class="row">
+      <section id="xraytopology" data-sr><br><br><br><br>
         <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>X-Ray Topology</b><mark></h2>
         <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -626,7 +653,7 @@ mark {
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-     <img src="<?php echo base_url('temp-img/xray1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+     <img src="<?php echo base_url('temp-img/xray1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -635,7 +662,7 @@ mark {
                 </div>
 
                 <div class="item">
-     <img src="<?php echo base_url('temp-img/xray2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+     <img src="<?php echo base_url('temp-img/xray2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -671,12 +698,12 @@ mark {
     </br>
     </div>
    </div>
-
-
+ </section>
 
 <!--fuctional part manufacturing-->
 <div class="container" style="margin-left:250px" id="div10">
     <div class="row">
+      <section id="functional" data-sr><br><br><br><br>
         <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>Functional Part Manufacturing</b><mark></h2>
         <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -689,7 +716,7 @@ mark {
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-     <img src="<?php echo base_url('temp-img/xray1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+     <img src="<?php echo base_url('temp-img/xray1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -698,7 +725,7 @@ mark {
                 </div>
 
                 <div class="item">
-     <img src="<?php echo base_url('temp-img/xray2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+     <img src="<?php echo base_url('temp-img/xray2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -731,10 +758,12 @@ mark {
            </br><br><br>
            </div>
       </div>
+    </section>
 
 <!--Tool manufacturing-->
 <div class="container" style="margin-left:250px" id="div11">
     <div class="row">
+      <section id="Tooling" data-sr><br><br><br><br>
         <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>Tooling Manufacturing</b><mark></h2>
         <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -747,7 +776,7 @@ mark {
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-   <img src="<?php echo base_url('temp-img/img22.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+   <img src="<?php echo base_url('temp-img/img22.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -756,7 +785,7 @@ mark {
                 </div>
 
                 <div class="item">
-    <img src="<?php echo base_url('temp-img/img23.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+    <img src="<?php echo base_url('temp-img/img23.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -789,11 +818,13 @@ mark {
         <br><br><br>
     </div>
 </div>
+</section>
 
 
 <!--Injection modeling-->
 <div class="container" style="margin-left:250px" id="div12">
     <div class="row">
+      <section id="injectionmedelling" data-sr><br><br><br><br>
         <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>Injection Modeling</b><mark></h2>
         <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -806,7 +837,7 @@ mark {
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-<img src="<?php echo base_url('temp-img/injection1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+<img src="<?php echo base_url('temp-img/injection1.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -815,7 +846,7 @@ mark {
                 </div>
 
                 <div class="item">
-      <img src="<?php echo base_url('temp-img/injection2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+      <img src="<?php echo base_url('temp-img/injection2.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -851,11 +882,13 @@ mark {
     </br>
     </div>
    </div>
+ </section>
 
 
 <!--CNC Machining-->
 <div class="container" style="margin-left:250px" id="div13">
     <div class="row">
+      <section id="cncmachine" data-sr><br><br><br><br>
         <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>CNC Machining</b><mark></h2>
         <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -868,7 +901,7 @@ mark {
             <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-       <img src="<?php echo base_url('temp-img/img10.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+       <img src="<?php echo base_url('temp-img/img10.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!-- <h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                          <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -877,7 +910,7 @@ mark {
                 </div>
 
                 <div class="item">
-     <img src="<?php echo base_url('temp-img/img15.jpg'); ?>" alt="Image" style="height: 373px ;width: 1024px" >
+     <img src="<?php echo base_url('temp-img/img15.jpg'); ?>" alt="Image" style="height: 373px ;width: 1168px" >
                     <div class="carousel-caption">
                         <!--<h1>MAHARASHTRA VOCATIONAL TRAINING CENTER</h1>
                         <p> Affiliated to Maharashtra State Board of Vocational Education Examination, Mumbai </p>
@@ -910,6 +943,7 @@ mark {
           </br></br>
            </div>
       </div>
+    </section>
 
 
        <!-- End page content -->
