@@ -67,7 +67,7 @@ mark {
 <?php include 'header_view.php';?>
 <br><br><br>
 <div>
-<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px;max-height: 520px;" id="mySidebar">
+<nav class="w3-bar-block w3-collapse w3-top" style="z-index:3;width:250px;max-height: 520px;" id="mySidebar">
     <div class="w3-padding-64 w3-large w3-text-black" style="font-weight:bold;">
       <nav style="margin-top: 50px">
     

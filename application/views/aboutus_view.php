@@ -21,14 +21,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
 
-
+@media only screen and (max-width: 700px) {
+ #mySidebar{
+  display: none;
+  }
+  }
   <body  background="<?php echo base_url();?>temp-img/b1.png" style="font-family: 'Roboto';font-size: 15px">
   <?php include 'header_view.php';?><br><br>
   <script src="<?php echo base_url();?>js/highlight-divjs.js"></script>
   <!-- Sid-ebar/menu -->
   <br>
   <div>
-<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px;max-height: 520px;" id="mySidebar">
+<nav class=" w3-bar-block w3-collapse w3-top" style="z-index:3;width:250px;max-height: 520px;" id="mySidebar">
     <div class="w3-padding-64 w3-large w3-text-black" style="font-weight:bold;">
       <nav style="margin-top: 50px">
     <a href="#about" style="color: black;">About Us</a><br>
