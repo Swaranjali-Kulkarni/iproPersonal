@@ -32,7 +32,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <!-- Sid-ebar/menu -->
   <br>
   <div>
+<<<<<<< HEAD
+  <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px;max-height: 520px;" id="mySidebar">
+=======
 <nav class=" w3-bar-block w3-collapse w3-top" style="z-index:3;width:250px;max-height: 520px;" id="mySidebar">
+>>>>>>> 4c8f1fb513fae0877868f7532907cb0c8edd24d3
     <div class="w3-padding-64 w3-large w3-text-black" style="font-weight:bold;">
       <nav style="margin-top: 50px">
     <a href="#about" style="color: black;">About Us</a><br>
@@ -53,9 +57,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
   <div class="w3-main" style="margin-left:250px">
   	<div class="container" style="background-color:#F0F0F0 ;font-family: 'Roboto'">
-             <div class="row" >
-              <section id="about"><br><br><br><br>
-                 <h2 style="text-align: center;font-weight: bold;font-family: 'Philosopher'">About Us</h2>
+        <div class="row" >
+            <section id="about"><br><br><br><br>
+                <h2 style="text-align: center;font-weight: bold;font-family: 'Philosopher'">About Us</h2>
                     <p style="text-align:justify;padding:20px;">
                      &nbsp;&nbsp;We IPRO3D Technologies LLP is a 3D printing start-up located at Aurangabad, Maharashtra, India which is almost in the center of India geographically.We have a very good and passionate team of Engineers working towards the same goal.We provide professional Services online
                       and offline for on demand production of prototypes,end use products,as well as batch production for products, etc using additive manufacturing technology also popularly known as 3D printing.<br>

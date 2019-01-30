@@ -383,11 +383,8 @@ mark {
         <div class="container">
            <div class="row" style="margin-top: 60px;margin-left: 10px;font-size: 16px">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design for 3d printing is a designing process through which the part can be design according to its final use or purpose but can be optimized for easy 3d printing for reducing the chance of any errors or defects occurrence during the 3d printing process or after production of final part.</br></br></div>
+          </div>
       </div>
-    <br><br><br>
-
-
-           </div>
       </div>   
       </section> 
 
@@ -441,7 +438,7 @@ mark {
 
 
 
-<div class="container"  style="margin-top: 60px;margin-left: 250px">
+<div class="container" style="margin-top: 10px;margin-left: 250px">
     <div class="row">
     </br>
     
@@ -455,7 +452,7 @@ mark {
 
 
 <!--Design topology optimization-->
-<div class="container" style="margin-left:250px" id="div7" >
+<div class="container" style="" id="div7" >
     <div class="row">
       <section id="topology" data-sr><br><br><br><br>
         <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>Design Topology Optimization</b><mark></h2>
@@ -499,13 +496,9 @@ mark {
             </div>
         </div>
     </div>
-</div>
 
 
-
-
-
-<div class="container" style="margin-top: 10px;margin-left: 250px">
+<div class="container" style="margin-top: 10px;">
     <div class="row">
     </br></br>
            <p style="text-align: justify;font-size: 16px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Topology optimization is a mathematical modeling approach that can optimizes material layouts digitally and simulate various iterations for within a given set of design space, for a given set of loads and boundary conditions such that the resulting layout meets a prescribed set of performance that targets to optimize the overall end result.</br>
@@ -517,7 +510,7 @@ mark {
 </section>
 
    <!--Small batch manufacturing-->
-   <div class="container" style="margin-left:250px" id="div8">
+   <div class="container" style="" >
         <div class="row">
           <section id="manufacturing" data-sr><br><br><br><br>
             <h2 style="text-align:center;font-family: 'Philosopher';"><mark><b>Small Batch Production</b><mark></h2>
@@ -575,7 +568,7 @@ mark {
 </section>
 
 <!--Vacuum casting-->
-<div class="container" style="margin-left:250px" id="div8">
+<div class="container" style="" id="div8">
     <div class="row">
       <section id="vaccumecast" data-sr><br><br><br><br>
         <h2 style="text-align: center;font-family: 'Philosopher';"><mark><b>Vaccum Casting</b><mark></h2>
@@ -625,7 +618,7 @@ mark {
 
 
 
-<div class="container" style="margin-top: 10px;margin-left: 250px">
+<div class="container" style="margin-top: 10px;">
     <div class="row" >
     </br>
     </br>

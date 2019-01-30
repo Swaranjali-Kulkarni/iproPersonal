@@ -67,6 +67,6 @@ class Welcome extends CI_Controller {
 	}
 	public function services_fun()
 	{
-       		$this->load->view('services_view');
+       		$this->load->view('services_view1');
 	}
 }
